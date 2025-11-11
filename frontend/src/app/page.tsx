@@ -1,7 +1,7 @@
 
 
 async function getData() {
-	const res = await fetch("http://localhost:3001/hello", {
+	const res = await fetch("https://deployment-yyf9.onrender.com/hello", {
 		cache: "no-store",
 	});
 
